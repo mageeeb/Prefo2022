@@ -1,0 +1,75 @@
+/* Totalité de la page avec une couleur de fond : gris clair */
+*{
+	 @import url ('https://fonts.googleapis.com/css2? famille=Pacifico&display=swap');
+}
+
+body {
+	margin: 0 auto;
+}
+
+/* page d'acceuil */
+header{
+	display: flex;
+	align-items: center;
+}
+
+
+h1 {  
+font-weight: bolt;
+font-size: 150%;
+text-align: center;
+}
+
+.nav{
+	list-style: none;
+	display: flex;
+	width: 400px;
+	margin-left: 80px;
+	justify-content: space-between;
+}
+
+.lien{
+	color: black;
+	text-decoration: none;
+}
+
+nav.nav li{
+	color: black;
+}
+#entrer{
+	text-align: left;
+}
+
+/* page visite */
+
+section{
+	background: url(../img/5.PNG);
+	background-size: cover;
+	height: 80vh;
+	padding: 25px;
+}
+
+.titre{
+	text-align: center;
+	color: white;
+	list-style: none;
+	
+}
+
+.entrer{
+	text-align: left;
+	color: red;
+}
+.paragraph{
+	color: black;
+}
+
+
+
+/* page description*/
+.lienpage {
+	color:black;
+}
+
+/* page interview*/
+/* page conclusion*/
