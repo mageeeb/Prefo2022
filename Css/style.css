@@ -1,6 +1,7 @@
 /* Totalité de la page avec une couleur de fond : gris clair */
+
 *{
-	 @import url ('https://fonts.googleapis.com/css2? famille=Pacifico&display=swap');
+	 
 }
 
 body {
@@ -63,13 +64,24 @@ section{
 .entrer{
 	text-align: left;
 	color: red;
+	background-image: url(../img/bruxelles.jpg);
+	background-size: cover;
+	height: 25vh;
+	padding: 25px;
 }
+
+.div img{
+	float: right;
+}
+
 .paragraph{
 	color: black;
 }
 
 /*------------------------------------------------------------------------------------------*/
 /*galerie*/
+
+	
 	header{
 		display: list-item;
 	}
@@ -77,6 +89,10 @@ section{
 		width: 180px;
 		float: left;
 		
+	}
+
+	img{
+		margin-right: 80px;
 	}
 
 /* page description*/
