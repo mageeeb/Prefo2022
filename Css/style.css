@@ -1,104 +1,246 @@
 /* Totalité de la page avec une couleur de fond : gris clair */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 *{
-	 
+    padding: 0;
+    margin: 0;
 }
 
-body {
-	margin: 0 auto;
-}
-/*------------------------------------------------------------------------------------------*/
-/* page d'acceuil */
-.header{
-	display: flex;
-	align-items: center;
-	
+
+/* nav styling */
+
+nav{
+    display:flex;
+    flex-direction: row;
+    padding: 8px;
 }
 
-h1 {  
-font-weight: bolt;
-font-size: 150%;
-text-align: center;
+nav #logo{
+    width: 50%;
+
+}
+nav #liens{
+    width: 50%;
 }
 
-ul{
-	list-style: none;
-	display: flex;
-	width: 400px;
-	justify-content: space-between;
-	
-	
+#liens li{
+    display: inline;
 }
 
-.lien{
-	color: red;
-	text-decoration: none;
-	font-variant: small-caps;
-	margin: 5px;
-	
-	
+#liens ul{
+    float: right;
+    margin-right: 50px;
+}
+#logo h3{
+    
+    vertical-align:top;
+    
+}
+#profil{
+    border: 1px solid black;
+    border-radius: 100%;
 }
 
-nav.nav li{
-	color: black;
+#liens li{
+    margin-left: 25px;
+  
 }
-#entrer{
-	text-align: left;
-}
-/*----------------------------------------------------------------------------------------------------*/
-/* page visite */
-
-section{
-	background-size: cover;
-	height: 80vh;
-	padding: 25px;
+#liens a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
 }
 
-.titre{
+
+#liens button{
+    background: lightskyblue;
+    color: white;
+    padding: 5px;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav{
+   
+    box-shadow: 10px 5px 8px #888888;
+}
+/* Ajouter du dynamisme a notre navbar */
+#liens a:hover{
+    padding: 2px;
+    border-radius: 5px;
+
+
+    border: 1px solid black;
+    
+}
+#liens button:hover{
+
+background: rgb(9, 12, 14);
+
+}
+
+/*Style du showcase */
+
+#showcase{
+    margin-top: 8px;
+    width: 100%;
+
+    height: 300px;
+    background: url("../banierre.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+
+}
+#showcase #text{
+
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-weight: bold;
+
+    background: black;
+    opacity: 0.5;
+    width: 90%;
+    margin:auto;
+
+    font-size: xx-large;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+    
+}
+/* styling services */
+.services{
+
+    display: grid;
+
+    grid-template-columns:repeat(3,30%);
+    
+    width:90%;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.service{
+
+    display: flex;
+    flex-direction: column;
+
+    
+
+    
+    
+    height: 400px;
+    text-align: center;
+    margin: 15px;
+}
+
+.service img{
+
+    width: 100%;
+    
+
+height: 40%;
+}
+
+.service p{
+    margin-top: 15px;
+    font-size: large;
+}
+#mes_services{
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+
+    
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: whitesmoke;
+    height: 100px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+/* Style de la page propos */
+
+
+
+#portrait{
+    margin-top: 15px;
+
+    height: 400px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+#moi{
+
+    width: 70%;
+    height: 800px;
+   /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+#moi p{
+    margin-top: 20px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+#moi a{
+
+    margin-top: 20px;
+
+    background: black;
+
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+#moi a:hover{
+
+    background: #888888;
+}
+
+
+
+/*----------------------------- page visite --------------------*/
+h2{
+	text-transform: uppercase;
 	text-align: center;
-	color: white;
-	list-style: none;
-	
+	padding-top: 30px;
+	font-size: 2em;
 }
 
-.entrer{
-	text-align: left;
-	color: red;
-	background-image: url(../img/bruxelles.jpg);
-	background-size: cover;
-	height: 25vh;
-	padding: 25px;
+/*image*/
+#imagePrincipale{
+	  padding-top: 60px;
+	  background: url(../img/bruxelles.jpg) no-repeat fixed 50% 50%;
+	  background-size: cover;
+	  height: 799px;
+}
+h2{
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	font-size: 3em;
+	margin-top: 100px;
 }
 
-.div img{
-	float: right;
-}
-
-.paragraph{
-	color: black;
-}
-
-/*------------------------------------------------------------------------------------------*/
-/*galerie*/
-
-	
-	header{
-		display: list-item;
-	}
-	img{
-		width: 180px;
-		float: left;
-		
-	}
-
-	img{
-		margin-right: 80px;
-	}
-
-/* page description*/
-.lienpage {
-	color:black;
-}
-
-/* page interview*/
 /* page conclusion*/
