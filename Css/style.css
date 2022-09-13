@@ -9,6 +9,10 @@
 
 /* nav styling */
 
+body{
+    background: url(../img/17973908.webp);
+}
+
 nav{
     display:flex;
     flex-direction: row;
@@ -229,13 +233,21 @@ h2{
 	font-size: 2em;
 }
 
+
+
 /*image*/
-#imagePrincipale{
-	  padding-top: 60px;
-	  background: url(../img/bruxelles.jpg) no-repeat fixed 50% 50%;
-	  background-size: cover;
-	  height: 799px;
+
+
+.img{
+    width: 10em;
+    float: right;
 }
+
+.imgtext{
+    text-align: center;
+}
+
+
 h2{
 	font-family: 'Libre Baskerville', serif;
 	text-align: center;
