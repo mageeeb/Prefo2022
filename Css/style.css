@@ -11,11 +11,22 @@
 /*------------------------------page d'acceuil------------------------------*/
 /* navbar styling */
 
-body{
+.body1{
    background-image: url(../img/lampe.jpg);
    background-size: 100% ;
-   background-repeat: no-repeat;
-   
+   background-size: cover;
+}
+
+.body2{
+    background-image: url(../img/lampe.jpg);
+   background-size: 100% ;
+   background-size: cover;
+}
+
+.body3{
+    background-image: url(../img/lune.jpg);
+   background-size: 100% ;
+   background-size: cover;
 }
 
 
