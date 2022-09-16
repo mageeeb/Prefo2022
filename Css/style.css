@@ -12,7 +12,7 @@
 /* navbar styling */
 
 .body1{
-   background-image: url(../img/lampe.jpg);
+   background-image: url(../img/lumiere.jpg);
    background-size: 100% ;
    background-size: cover;
 }
@@ -92,20 +92,19 @@ nav #liens{
 
 }
 #showcase #text{
-
+    background-color: #ed5dc7;
     text-align: center;
     position: relative;
     top: 80px;
     font-weight: bold;
-
-    background: white;
-    width: 90%;
+    width: 50%;
     margin:auto;
-    
-    
     font-size: xx-large;
-    color: black;
+    color: white;
     font-family: 'Ultra', serif;
+    box-shadow:0 0 10px #60D6EF,
+    0 0 20px #60D6EF,
+    0 0 40px #60D6EF;
 }
 
 
@@ -124,17 +123,13 @@ nav #liens{
     flex-direction: column;
     height: 400px;
     text-align: center;
-    
     color: white;
     margin-left: 13em;
-    
-
-    
-    
-    
 }
 
-.service img{
+
+
+.services img{
     width: 20em;
    
 }
@@ -147,28 +142,24 @@ nav #liens{
 }
 #mes_services{
     text-align: center;
-    
-    
-    
+    position: relative;
+    font-size: 25px;
 }
 
 .footer{
     bottom: 0px;
     width: 100%;
     text-align: center;
-    background: whitesmoke;
     height: 100px;
     padding: 0p;
     margin-top: 200px;
-
-}
-
-#contact{
-    color: black;
+    color: white;
 }
 
 #icons a{
-    color: black;
+    color: white;
+    font-size: 25px;
+    
 }
 
 
@@ -222,6 +213,8 @@ h2{
     margin-right: 50px;
     margin-left: 50px;
     padding-top: 25px;
+    font-weight: bold;
+    
     
 }
 
