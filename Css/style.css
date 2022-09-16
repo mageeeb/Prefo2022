@@ -11,15 +11,19 @@
 /*------------------------------page d'acceuil------------------------------*/
 /* navbar styling */
 
+
+
 .body1{
-   background-image: url(../img/lumiere.jpg);
+    background-image: url(../img/lumiere.jpg);
    background-size: 100% ;
+   object-fit: cover;
    background-size: cover;
 }
 
 .body2{
-    background-image: url(../img/lampe.jpg);
+    background-image: url(../img/brux.jpg);
    background-size: 100% ;
+   object-fit: cover;
    background-size: cover;
 }
 
@@ -131,6 +135,7 @@ nav #liens{
 
 .services img{
     width: 20em;
+    object-fit: cover;
    
 }
 
@@ -194,6 +199,7 @@ h2{
     width: 20em;
    height: auto;
    padding-bottom: 50px;
+   object-fit: cover;
 }
 
 .liens{
