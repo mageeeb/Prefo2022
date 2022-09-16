@@ -12,14 +12,17 @@
 /* navbar styling */
 
 .body1{
-   background-image: url(../img/lampe.jpg);
+   background-image: url(../img/denegal.jpg);
    background-size: 100% ;
    background-size: cover;
+   object-fit: cover;
+   background-position: center;
 }
 
 .body2{
-    background-image: url(../img/lampe.jpg);
+    background-image: url(../img/brux.jpg);
    background-size: 100% ;
+   object-fit: cover;
    background-size: cover;
 }
 
@@ -124,7 +127,6 @@ nav #liens{
     flex-direction: column;
     height: 400px;
     text-align: center;
-    
     color: white;
     margin-left: 13em;
     
@@ -136,6 +138,7 @@ nav #liens{
 
 .service img{
     width: 20em;
+    object-fit: cover;
    
 }
 
@@ -203,6 +206,7 @@ h2{
     width: 20em;
    height: auto;
    padding-bottom: 50px;
+   object-fit: cover;
 }
 
 .liens{
