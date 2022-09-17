@@ -5,7 +5,9 @@
 *{
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*------------------------------page d'acceuil------------------------------*/
@@ -21,8 +23,8 @@
 }
 
 .body2{
-    background-image: url(../img/brux.jpg);
-   background-size: 100% ;
+    background-image: url(../img/nuage.jpg);
+   
    object-fit: cover;
    background-size: cover;
 }
@@ -31,6 +33,12 @@
     background-image: url(../img/lune.jpg);
    background-size: 100% ;
    background-size: cover;
+}
+
+.hautpage{
+    min-height: 80vh;
+    background: url(../img/brux.jpg);
+    background-size: cover;
 }
 
 
@@ -149,6 +157,7 @@ nav #liens{
     text-align: center;
     position: relative;
     font-size: 25px;
+    
 }
 
 .footer{
