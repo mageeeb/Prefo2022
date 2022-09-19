@@ -1,7 +1,7 @@
 /* Totalité de la page avec une couleur de fond : gris clair */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
  @import url('https://fonts.googleapis.com/css2? family=Ultra&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -22,18 +22,8 @@
    background-size: cover;
 }
 
-.body2{
-    background-image: url(../img/nuage.jpg);
-   
-   object-fit: cover;
-   background-size: cover;
-}
 
-.body3{
-    background-image: url(../img/lune.jpg);
-   background-size: 100% ;
-   background-size: cover;
-}
+
 
 .hautpage{
     min-height: 80vh;
@@ -91,33 +81,7 @@ nav #liens{
 }
 
 
-/*Style du showcase */
 
-#showcase{
-    margin-top: 8px;
-    width: 100%;
-
-    height: 300px;  
-    background: url("../banierre.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 350px;
-
-}
-#showcase #text{
-    background-color: #ed5dc7;
-    text-align: center;
-    position: relative;
-    top: 80px;
-    font-weight: bold;
-    width: 50%;
-    margin:auto;
-    font-size: xx-large;
-    color: white;
-    font-family: 'Ultra', serif;
-    box-shadow:0 0 10px #60D6EF,
-    0 0 20px #60D6EF,
-    0 0 40px #60D6EF;
-}
 
 
 /* styling services */
@@ -155,32 +119,70 @@ nav #liens{
 }
 #mes_services{
     text-align: center;
-    position: relative;
+    text-decoration: underline;
+    position: static;
     font-size: 25px;
-    
+    margin-bottom: 5em;
 }
 
-.footer{
-    bottom: 0px;
-    width: 100%;
-    text-align: center;
-    height: 100px;
-    padding: 0p;
-    margin-top: 200px;
-    color: white;
-}
 
-#icons a{
-    color: white;
-    font-size: 25px;
-    
-}
 
 
 
 
 
 /*----------------------------- page visite --------------------*/
+.body2{
+    background-image: url(../img/nuage.jpg);
+   object-fit: cover;
+   background-size: cover;
+}
+
+/*Style du showcase */
+
+#showcase{
+    margin-top: 8px;
+    width: 100%;
+
+    height: 300px;  
+    background: url("../banierre.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+
+}
+#showcase #text{
+    background-color: #ed5dc7;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-weight: bold;
+    width: 50%;
+    margin:auto;
+    font-size: xx-large;
+    color: white;
+    box-shadow:0 0 10px #60D6EF,
+    0 0 20px #60D6EF,
+    0 0 40px #60D6EF;
+    font-family: 'Yeseva One', cursive;
+}
+
+#text1{
+    background-color: #60D6EF;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-weight: bold;
+    width: 50%;
+    margin:auto;
+    font-size: xx-large;
+    color: white;
+    box-shadow:0 0 10px #60D6EF,
+    0 0 20px #60D6EF,
+    0 0 40px #60D6EF;
+    font-family: 'Yeseva One', cursive;
+}
+
+
 h1{
 	text-transform: uppercase;
 	text-align: center;
@@ -193,6 +195,10 @@ h1{
 h2{
     color: white;
     text-align: center;
+}
+
+.section{
+    margin-left: 50px;
 }
 
 
@@ -229,22 +235,125 @@ h2{
     margin-left: 50px;
     padding-top: 25px;
     font-weight: bold;
-    
-    
+     
 }
 
+.p1{
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+    font-weight: bold;
+    padding-left: 10em;
+}
+
+.p2{
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+    font-weight: bold;
+    margin-left: 70px;
+    text-align: center;
+    padding-top: 10em;
+    padding-left: 15em;
+}
+.p3{
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+    font-weight: bold;
+    padding-left: 10em;
+}
 .pp{
     text-align: center;
     color: white;
     padding-bottom: 50px;
     margin-right: 50px;
     margin-left: 50px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #presentation{
     text-align: center;
 }
 
+/*---------------------page interview---------------------------*/
+.body3{
+    background-image: url(../img/lune.jpg);
+   background-size: 100% ;
+   background-size: cover;
+}
 
+
+main{
+    color: white;
+    margin: 25px 0 0 25px;
+    font-family: 'Libre Baskerville', serif;
+   
+
+}
 
 /* page conclusion*/
+
+.body4{
+    background-image: url(../img/lumiere.jpg);
+   background-size: 100% ;
+   object-fit: cover;
+   background-size: cover;
+}
+#text3{
+    background-color: #60D6EF;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-weight: bold;
+    width: 50%;
+    margin:auto;
+    font-size: xx-large;
+    color: white;
+    box-shadow:0 0 10px #60D6EF,
+    0 0 20px #60D6EF,
+    0 0 40px #60D6EF;
+    font-family: 'Yeseva One', cursive;
+}
+
+
+/*page de footer*/
+.footer{
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    padding: 0p;
+    margin-top: 200px;
+    color: white;
+}
+
+#icons a{
+    color: white;
+    font-size: 25px;
+    
+}
+.footer3{
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    padding: 0p;
+    margin-top: 200px;
+    color: black;
+}
+
+#icons3 a{
+    color: black;
+    font-size: 25px;
+    
+}
+#contact3{
+    color: black;
+}
+
+
