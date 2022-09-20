@@ -6,83 +6,97 @@
 		<script src="https://kit.fontawesome.com/e95a7f8c2a.js" crossorigin="anonymous"></script>
 		<link type="text/css" rel="stylesheet" href="css/style.css" />
 	</head>
-	<body class="body1">
-
-		
-		<!-- ENTETE -->
-		<section class="header">
-		<header>
-			<!--Markup du navbar-->
+	<body>
+		<!----hero Section start---->
+	
+		<div class="hero">
 			<nav>
-				<div id="logo">
-					<h3>Site Préformation Magib Sall</h3>
-	
-				</div>
-				<div id="liens">
-					<ul>
-						<li> <a href="index.html">Acceuil</a></li>
-						<li> <a href="exposition/visite.html"> Visite</a></li>
-						<li> <a href="entreprise/interview.html">Interview</a></li>
-						<li> <a href="entreprise/conclusion.html">Conclusion</a></li>
-					 </ul>
-				</div>
+				<h2 class="logo">Site de Preforma<span>tion</span></h2>
+				<ul>
+					<li> <a href="index.html">Acceuil</a></li>
+					<li> <a href="exposition/visite.html"> Visite</a></li>
+					<li> <a href="entreprise/interview.html">Interview</a></li>
+					<li> <a href="entreprise/conclusion.html">Conclusion</a></li>
+				 </ul>
+				<a href="#" class="btn">A Propos</a>
 			</nav>
-		</header>
-		<!--Texte Acceuil-->
-		<div id="showcase">
-			<p id="text">SALUT<br> BIENVENU SUR MON SITE DE PREFORMATION  </p>
 	
+			<div class="content">
+				<h4>Bonjour, mon nom est : </h4>
+				<h1>Magib <span>SALL</span></h1>
+				<h3>Je fais la formation de Web Developer.</h3>
+				<div class="newslatter">
+					<form>
+						<input type="email" name="email" id="mail" placeholder="Entre ton Email">
+						<input type="submit" name="submit" value="Entrer">
+					</form>
+				</div>
+			</div>
 		</div>
 	
-		<!--Markup des services-->
-		<section class="section">
-			<h1 id="mes_services">Mon parcours</h1>
-		<div class="services">
 	
-			<div class="service">
-				<img src="./img/maintenance-removebg-preview.png" alt="img">
-				<h1>Maintenance informatique</h1>
-				<p>j'ai fais de la Maintenance informatique pendant 3 ans. Mes taches étaient
-					la réparation des PC et du réseau en entreprise.</p>
 	
+		<!-----service section start----------->
+		<div class="service">
+			<div class="title">
+				<h2>Mon Parcours</h2>
 			</div>
-			
-			<div class="service">
-					<img src="./img/conseille.webp" alt="img">
-					<h1>conseillé technique</h1>
-					<p>j'ai été conseillé technique dans un centre d'appel où 
-						mes taches étaient de guider les clients à recuperer leurs 
-						services informatique (Internet, TV). </p>
-		
+	
+			<div class="box">
+				<div class="card">
+					<i class="fas fa-bars"></i>
+					<h5>Maintenance Informatique</h5>
+					<div class="pra">
+						<p>j'ai fais de la Maintenance informatique pendant 3 ans. Mes taches étaient
+							la réparation des PC et du réseau en entreprise.</p>
+	
+						<p style="text-align: center;">
+							<a class="button" href="#">Read More</a>
+						</p>
+					</div>
 				</div>
-				
-				<div class="service">
-						<img src="./img/code.jpg" alt="">
-						<h1>Prochainement WEBDEV</h1>
+	
+				<div class="card">
+					<i class="far fa-user"></i>
+					<h5>Conseillé Technique</h5>
+					<div class="pra">
+						<p>j'ai été conseillé technique dans un centre d'appel où 
+							mes taches étaient de guider les clients à recuperer leurs 
+							services informatique (Internet, TV). </p>
+	
+						<p style="text-align: center;">
+							<a class="button" href="#">Read More</a>
+						</p>
+					</div>
+				</div>
+	
+				<div class="card">
+					<i class="far fa-bell"></i>
+					<h5> Web Dev</h5>
+					<div class="pra">
 						<p>Fan de nouvelles technologies, j'ai choisi de faire cette 
 							formation car mon rêve est de creer et de developper de nouvelles 
 							choses et pourquoi pas contribuer au futur!!</p>
-			
-					</div>
-		</div>
-		</section>
-		
-		<!--Markup du footer-->
 	
-		<footer class="footer">
-			<h2 id="contact">Suivez-moi</h2>
-			<div id="deuxiemeTrait"></div>
-			<div id="copyrightEtIcons">
-			  <div id="copyright">
-				<span>© fromRéseau(); 2022</span>
-			  </div>
-			  <div id="icons">
-				<a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
-				<a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
-				<a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
-			  </div>
+						<p style="text-align: center;">
+							<a class="button" href="#">Read More</a>
+						</p>
+					</div>
+				</div>
 			</div>
-		  </footer>
-		</section>
+		</div>
+	
+	
+		<!------footer start--------->
+		<footer>
+			<p>Magib Sall</p>
+			<p>Vous pouvez me suivre sur les réseaux sociaux </p>
+			<div class="social">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+			</div>
+			<p class="end">CopyRight Par Magib SALL</p>
+		</footer>
 	</body>
 </html>
