@@ -271,6 +271,12 @@ h5{
    background-size: cover;
 }
 
+.hautpage{
+	background-image: url(../img/brux.jpg);
+	min-height: 100vh;
+	background-size: cover;
+}
+
 /*Style du showcase */
 
 #showcase{
@@ -336,9 +342,9 @@ h2{
 
 
 
-/*paragraphe*/
+/*paragraphe*/ /*image*/
 
-/*image*/
+
 
 
 .img{
@@ -354,6 +360,37 @@ h2{
     text-decoration: none;
     color: white;
     font-size: large;
+}
+
+.p1 a:hover{
+	background-color:#60D6EF;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+.p2 a:hover{
+	background-color:#60D6EF;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+.p3 a:hover{
+	background-color:#60D6EF;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
 }
 
 .img-text{
@@ -377,7 +414,7 @@ h2{
     margin-left: 50px;
     padding-top: 25px;
     font-weight: bold;
-    padding-left: 10em;
+    padding-left: 20em;
 }
 
 .p2{
@@ -389,7 +426,7 @@ h2{
     margin-left: 70px;
     text-align: center;
     padding-top: 10em;
-    padding-left: 15em;
+    padding-left: 20em;
 }
 .p3{
     color: white;
@@ -415,18 +452,33 @@ h2{
 
 /*---------------------page interview---------------------------*/
 .body3{
-    background-image: url(../img/lune.jpg);
+    background-image: url(../img/gris.webp);
    background-size: 100% ;
    background-size: cover;
 }
 
-
-main{
-    color: white;
-    margin: 25px 0 0 25px;
-    font-family: 'Libre Baskerville', serif;
-   
-
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.interview p{
+	color: white;
 }
 
 /* page conclusion*/
@@ -452,9 +504,20 @@ main{
     0 0 40px #60D6EF;
     font-family: 'Yeseva One', cursive;
 }
+.ques1{
+	background-color: #60D6EF;
+	text-align: left;
+	
+}
 
+.ques2{
+	background-color: #ed5dc7;
+	text-align: right;
+	
+}
 
-/*page de footer*/
+/*-------------------------page de footer---------------------------------*/
+
 footer{
 	position: relative;
 	width: 100%;
@@ -546,5 +609,12 @@ footer p:nth-child(2){
 	transform: scale(1.3);
 	transition: .3s;
 }
+
+
+
+
+
+
+
 
 
