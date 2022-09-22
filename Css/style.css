@@ -264,7 +264,7 @@ h5{
 }
 
 
-/*----------------------------- page visite --------------------*/
+/*---------------------- page visite --------------------*/
 .body2{
     background-image: url(../img/nuage.jpg);
    object-fit: cover;
@@ -468,6 +468,7 @@ h2{
 }
 .about-text{
 	width: 550px;
+	color: white;
 }
 .main{
 	width: 1130px;
@@ -477,10 +478,131 @@ h2{
 	align-items: center;
 	justify-content: space-around;
 }
+
+
 .interview p{
-	color: white;
+	color: black;
+}
+.titreint{
+	color: black;
+}
+.ques1{
+	background-color: white;
+	text-align: center;
+	width: 30%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	margin-left: 50px;
+	float: right;
+	
 }
 
+.ques2{
+	background-color: white;
+	text-align: center;
+	width: 60%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: right;
+	
+}
+
+.ques3{
+	background-color: white;
+	text-align: center;
+	width: 25%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: right;
+	
+}
+
+.ques4{
+	background-color: white;
+	text-align: center;
+	width: 50%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: left;
+	
+}
+
+
+.ques5{
+	background-color: white;
+	text-align: center;
+	width: 50%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: right;
+	
+}
+
+
+.ques6{
+	background-color: white;
+	text-align: center;
+	width: 50%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: left;
+	
+}
+
+
+.ques7{
+	background-color: white;
+	text-align: center;
+	width: 50%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: right;
+	
+}
+
+
+.ques8{
+	background-color: white;
+	text-align: center;
+	width: 50%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: right;
+	
+}
+
+
+.ques9{
+	background-color: white;
+	text-align: center;
+	width: 50%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: right;
+	
+}
+
+
+.ques10{
+	background-color: white;
+	text-align: center;
+	width: 50%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: right;
+	
+}
+
+
+.ques11{
+	background-color: white;
+	text-align: center;
+	width: 50%;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	float: right;
+	
+}
 /* page conclusion*/
 
 .body4{
@@ -504,17 +626,9 @@ h2{
     0 0 40px #60D6EF;
     font-family: 'Yeseva One', cursive;
 }
-.ques1{
-	background-color: #60D6EF;
-	text-align: left;
-	
-}
 
-.ques2{
-	background-color: #ed5dc7;
-	text-align: right;
-	
-}
+
+
 
 /*-------------------------page de footer---------------------------------*/
 
